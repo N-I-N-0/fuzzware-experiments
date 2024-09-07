@@ -1,0 +1,34 @@
+{
+    "memory_map": {
+        "nvic": {
+            "base_addr": 3758096384,
+            "size": 268435456,
+            "permissions": "rw-"
+        },
+        "irq_ret": {
+            "base_addr": 4294963200,
+            "size": 4096,
+            "permissions": "--x"
+        },
+        "mmio": {
+            "base_addr": 1073741824,
+            "size": 536870912,
+            "permissions": "rw-"
+        },
+        "ram": {
+            "base_addr": 536870912,
+            "size": 1048576,
+            "permissions": "rw-"
+        },
+        "text": {
+            "base_addr": 134217728,
+            "file": "C:\\Users\\Nin0\\Documents\\GitHub\\ghidra-integration\\evaluation\\fuzzware-experiments\\01-access-modeling-for-fuzzing\\pw-discovery\\NUCLEO_L152RE\\basic_exercises.bin",
+            "permissions": "r-x",
+            "size": 8388608,
+            "is_entry": true
+        }
+    },
+    "use_timers": false,
+    "use_nvic": false,
+    "use_systick": false
+}

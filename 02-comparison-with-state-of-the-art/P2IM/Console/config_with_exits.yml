@@ -1,0 +1,7 @@
+exit_at:
+  FUN_00000936: 0x936
+  FUN_00000e58: 0xe58
+  FUN_00000f80: 0xf80
+  FUN_00003694: 0x3694
+include:
+- config.yml

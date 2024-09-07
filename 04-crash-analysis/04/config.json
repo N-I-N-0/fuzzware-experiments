@@ -1,0 +1,342 @@
+{
+    "memory_map": {
+        "irq_ret": {
+            "base_addr": 4294963200,
+            "permissions": "--x",
+            "size": 4096
+        },
+        "mmio": {
+            "base_addr": 1073741824,
+            "permissions": "rw-",
+            "size": 536870912
+        },
+        "mmio_GPIO_USB_CRC_SCTIMER_PWM": {
+            "base_addr": 469762048,
+            "permissions": "rw",
+            "size": 163840
+        },
+        "nvic": {
+            "base_addr": 3758096384,
+            "permissions": "rw-",
+            "size": 268435456
+        },
+        "ram": {
+            "base_addr": 536870912,
+            "permissions": "rw-",
+            "size": 1048576
+        },
+        "sram": {
+            "base_addr": 33554432,
+            "permissions": "rwx",
+            "size": 32768
+        },
+        "text": {
+            "base_addr": 0,
+            "file": "C:\\Users\\Nin0\\Documents\\GitHub\\ghidra-integration\\evaluation\\fuzzware-experiments\\01-access-modeling-for-fuzzing\\pw-discovery\\LPC1549\\basic_exercises.bin",
+            "is_entry": true,
+            "permissions": "r-x",
+            "size": 8388608
+        }
+    },
+    "mmio_models": {
+        "constant": {
+            "pc_00000ab2_mmio_40040008": {
+                "access_size": 4,
+                "addr": 1074003976,
+                "pc": 2738,
+                "val": 1
+            },
+            "pc_00000abe_mmio_40040008": {
+                "access_size": 4,
+                "addr": 1074003976,
+                "pc": 2750,
+                "val": 4
+            },
+            "pc_00000b78_mmio_4007419c": {
+                "access_size": 4,
+                "addr": 1074217372,
+                "pc": 2936,
+                "val": 1
+            },
+            "pc_00000bbc_mmio_400741ac": {
+                "access_size": 4,
+                "addr": 1074217388,
+                "pc": 3004,
+                "val": 1
+            }
+        },
+        "passthrough": {
+            "pc_000001fa_mmio_400740c4": {
+                "access_size": 4,
+                "addr": 1074217156,
+                "init_val": 0,
+                "pc": 506
+            },
+            "pc_00000292_mmio_1c002000": {
+                "access_size": 4,
+                "addr": 469770240,
+                "init_val": 0,
+                "pc": 658
+            },
+            "pc_0000080a_mmio_400f8064": {
+                "access_size": 4,
+                "addr": 1074757732,
+                "init_val": 0,
+                "pc": 2058
+            },
+            "pc_0000086e_mmio_40038000": {
+                "access_size": 4,
+                "addr": 1073971200,
+                "init_val": 0,
+                "pc": 2158
+            },
+            "pc_0000088e_mmio_40038000": {
+                "access_size": 4,
+                "addr": 1073971200,
+                "init_val": 0,
+                "pc": 2190
+            },
+            "pc_0000088e_mmio_40038004": {
+                "access_size": 4,
+                "addr": 1073971204,
+                "init_val": 0,
+                "pc": 2190
+            },
+            "pc_0000088e_mmio_40038008": {
+                "access_size": 4,
+                "addr": 1073971208,
+                "init_val": 0,
+                "pc": 2190
+            },
+            "pc_0000088e_mmio_4003800c": {
+                "access_size": 4,
+                "addr": 1073971212,
+                "init_val": 0,
+                "pc": 2190
+            },
+            "pc_0000088e_mmio_40038010": {
+                "access_size": 4,
+                "addr": 1073971216,
+                "init_val": 0,
+                "pc": 2190
+            },
+            "pc_0000088e_mmio_40038014": {
+                "access_size": 4,
+                "addr": 1073971220,
+                "init_val": 0,
+                "pc": 2190
+            },
+            "pc_0000088e_mmio_40038018": {
+                "access_size": 4,
+                "addr": 1073971224,
+                "init_val": 0,
+                "pc": 2190
+            },
+            "pc_0000088e_mmio_4003801c": {
+                "access_size": 4,
+                "addr": 1073971228,
+                "init_val": 0,
+                "pc": 2190
+            },
+            "pc_0000088e_mmio_40038020": {
+                "access_size": 4,
+                "addr": 1073971232,
+                "init_val": 0,
+                "pc": 2190
+            },
+            "pc_0000088e_mmio_40038024": {
+                "access_size": 4,
+                "addr": 1073971236,
+                "init_val": 0,
+                "pc": 2190
+            },
+            "pc_0000088e_mmio_40038028": {
+                "access_size": 4,
+                "addr": 1073971240,
+                "init_val": 0,
+                "pc": 2190
+            },
+            "pc_0000088e_mmio_4003802c": {
+                "access_size": 4,
+                "addr": 1073971244,
+                "init_val": 0,
+                "pc": 2190
+            },
+            "pc_0000088e_mmio_40038030": {
+                "access_size": 4,
+                "addr": 1073971248,
+                "init_val": 0,
+                "pc": 2190
+            },
+            "pc_0000088e_mmio_40038034": {
+                "access_size": 4,
+                "addr": 1073971252,
+                "init_val": 0,
+                "pc": 2190
+            },
+            "pc_0000088e_mmio_40038038": {
+                "access_size": 4,
+                "addr": 1073971256,
+                "init_val": 0,
+                "pc": 2190
+            },
+            "pc_0000088e_mmio_4003803c": {
+                "access_size": 4,
+                "addr": 1073971260,
+                "init_val": 0,
+                "pc": 2190
+            },
+            "pc_000008d0_mmio_40040020": {
+                "access_size": 4,
+                "addr": 1074004000,
+                "init_val": 0,
+                "pc": 2256
+            },
+            "pc_000008d2_mmio_40074128": {
+                "access_size": 4,
+                "addr": 1074217256,
+                "init_val": 0,
+                "pc": 2258
+            },
+            "pc_0000093c_mmio_40040000": {
+                "access_size": 4,
+                "addr": 1074003968,
+                "init_val": 0,
+                "pc": 2364
+            },
+            "pc_000009e8_mmio_400740c8": {
+                "access_size": 4,
+                "addr": 1074217160,
+                "init_val": 0,
+                "pc": 2536
+            },
+            "pc_000009f6_mmio_40074048": {
+                "access_size": 4,
+                "addr": 1074217032,
+                "init_val": 0,
+                "pc": 2550
+            },
+            "pc_000009fe_mmio_40074048": {
+                "access_size": 4,
+                "addr": 1074217032,
+                "init_val": 0,
+                "pc": 2558
+            },
+            "pc_00000a48_mmio_40040000": {
+                "access_size": 4,
+                "addr": 1074003968,
+                "init_val": 0,
+                "pc": 2632
+            },
+            "pc_00000b2a_mmio_40074208": {
+                "access_size": 4,
+                "addr": 1074217480,
+                "init_val": 0,
+                "pc": 2858
+            },
+            "pc_00000b4a_mmio_40074208": {
+                "access_size": 4,
+                "addr": 1074217480,
+                "init_val": 0,
+                "pc": 2890
+            },
+            "pc_00000b6c_mmio_40074208": {
+                "access_size": 4,
+                "addr": 1074217480,
+                "init_val": 0,
+                "pc": 2924
+            },
+            "pc_00000b8c_mmio_40074208": {
+                "access_size": 4,
+                "addr": 1074217480,
+                "init_val": 0,
+                "pc": 2956
+            },
+            "pc_00000b98_mmio_40074208": {
+                "access_size": 4,
+                "addr": 1074217480,
+                "init_val": 0,
+                "pc": 2968
+            },
+            "pc_00000ba4_mmio_40074208": {
+                "access_size": 4,
+                "addr": 1074217480,
+                "init_val": 0,
+                "pc": 2980
+            },
+            "pc_00000bc4_mmio_400740c4": {
+                "access_size": 4,
+                "addr": 1074217156,
+                "init_val": 0,
+                "pc": 3012
+            },
+            "pc_00000bfc_mmio_400740c8": {
+                "access_size": 4,
+                "addr": 1074217160,
+                "init_val": 0,
+                "pc": 3068
+            },
+            "pc_00000c08_mmio_40074048": {
+                "access_size": 4,
+                "addr": 1074217032,
+                "init_val": 0,
+                "pc": 3080
+            },
+            "pc_00000c10_mmio_40074048": {
+                "access_size": 4,
+                "addr": 1074217032,
+                "init_val": 0,
+                "pc": 3088
+            },
+            "pc_00000c46_mmio_1c024004": {
+                "access_size": 4,
+                "addr": 469909508,
+                "init_val": 0,
+                "pc": 3142
+            },
+            "pc_00000caa_mmio_1c024004": {
+                "access_size": 4,
+                "addr": 469909508,
+                "init_val": 0,
+                "pc": 3242
+            },
+            "pc_00000cb6_mmio_1c024004": {
+                "access_size": 4,
+                "addr": 469909508,
+                "init_val": 0,
+                "pc": 3254
+            }
+        },
+        "set": {
+            "pc_00000d62_mmio_1c002100": {
+                "access_size": 4,
+                "addr": 469770496,
+                "pc": 3426,
+                "vals": [
+                    0,
+                    33554432
+                ]
+            }
+        },
+        "unmodeled": {
+            "pc_00000a08_mmio_400740d0": {
+                "access_size": 4,
+                "addr": 1074217168,
+                "pc": 2568
+            },
+            "pc_00000ab8_mmio_40040014": {
+                "access_size": 4,
+                "addr": 1074003988,
+                "pc": 2744
+            },
+            "pc_00000c92_mmio_1c024040": {
+                "access_size": 4,
+                "addr": 469909568,
+                "pc": 3218
+            }
+        }
+    },
+    "use_nvic": false,
+    "use_systick": false,
+    "use_timers": false
+}

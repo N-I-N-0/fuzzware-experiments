@@ -1,0 +1,8 @@
+exit_at:
+  FUN_00080f8a: 0x80f8a
+  FUN_00081174: 0x81174
+  FUN_00081198: 0x81198
+  FUN_0008120a: 0x8120a
+  FUN_2007001a: 0x2007001a
+include:
+- config.yml

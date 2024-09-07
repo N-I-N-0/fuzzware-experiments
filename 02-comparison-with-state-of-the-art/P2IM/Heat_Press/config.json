@@ -1,0 +1,36 @@
+{
+    "interrupt_triggers": {
+        "trigger": {
+            "every_nth_tick": 1000,
+            "fuzz_mode": "round_robin"
+        }
+    },
+    "memory_map": {
+        "mmio": {
+            "base_addr": 1073741824,
+            "size": 536870912,
+            "permissions": "rw-"
+        },
+        "nvic": {
+            "base_addr": 3758096384,
+            "size": 268435456,
+            "permissions": "rw-"
+        },
+        "irq_ret": {
+            "base_addr": 4294963200,
+            "size": 4096,
+            "permissions": "--x"
+        },
+        "ram": {
+            "base_addr": 537329664,
+            "permissions": "rw-",
+            "size": 262144
+        },
+        "text": {
+            "base_addr": 524288,
+            "file": "C:\\Users\\Nin0\\Documents\\GitHub\\ghidra-integration\\evaluation\\fuzzware-experiments\\02-comparison-with-state-of-the-art\\P2IM\\Heat_Press\\Heat_Press.bin",
+            "permissions": "r-x",
+            "size": 28672
+        }
+    }
+}

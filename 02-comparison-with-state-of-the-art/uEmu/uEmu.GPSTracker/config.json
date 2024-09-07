@@ -1,0 +1,46 @@
+{
+    "interrupt_triggers": {
+        "trigger": {
+            "every_nth_tick": 1000,
+            "fuzz_mode": "round_robin"
+        }
+    },
+    "memory_map": {
+        "mmio": {
+            "base_addr": 1073741824,
+            "size": 536870912,
+            "permissions": "rw-"
+        },
+        "nvic": {
+            "base_addr": 3758096384,
+            "size": 268435456,
+            "permissions": "rw-"
+        },
+        "irq_ret": {
+            "base_addr": 4294963200,
+            "size": 4096,
+            "permissions": "--x"
+        },
+        "mmio_UDD": {
+            "base_addr": 538443776,
+            "permissions": "rw-",
+            "size": 131072
+        },
+        "flash": {
+            "base_addr": 655360,
+            "permissions": "rw-",
+            "size": 4096
+        },
+        "ram": {
+            "base_addr": 537329664,
+            "permissions": "rw-",
+            "size": 589824
+        },
+        "text": {
+            "base_addr": 524288,
+            "file": "C:\\Users\\Nin0\\Documents\\GitHub\\ghidra-integration\\evaluation\\fuzzware-experiments\\02-comparison-with-state-of-the-art\\uEmu\\uEmu.GPSTracker\\uEmu.GPSTracker.bin",
+            "permissions": "r-x",
+            "size": 49152
+        }
+    }
+}

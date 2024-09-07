@@ -1,0 +1,39 @@
+{
+    "memory_map": {
+        "mmio": {
+            "base_addr": 1073741824,
+            "size": 536870912,
+            "permissions": "rw-"
+        },
+        "nvic": {
+            "base_addr": 3758096384,
+            "size": 268435456,
+            "permissions": "rw-"
+        },
+        "irq_ret": {
+            "base_addr": 4294963200,
+            "size": 4096,
+            "permissions": "--x"
+        },
+        "ram": {
+            "base_addr": 536870912,
+            "permissions": "rw-",
+            "size": 393216
+        },
+        "text": {
+            "base_addr": 134217728,
+            "file": "C:\\Users\\Nin0\\Documents\\GitHub\\ghidra-integration\\evaluation\\fuzzware-experiments\\02-comparison-with-state-of-the-art\\uEmu\\XML_Parser\\XML_Parser.bin",
+            "permissions": "r-x",
+            "size": 86016
+        },
+        "rodata": {
+            "base_addr": 134303744,
+            "file": "C:\\Users\\Nin0\\Documents\\GitHub\\ghidra-integration\\evaluation\\fuzzware-experiments\\02-comparison-with-state-of-the-art\\uEmu\\XML_Parser\\XML_Parser.bin",
+            "file_offset": 86016,
+            "permissions": "r--",
+            "size": 65536
+        }
+    },
+    "use_nvic": false,
+    "use_systick": false
+}

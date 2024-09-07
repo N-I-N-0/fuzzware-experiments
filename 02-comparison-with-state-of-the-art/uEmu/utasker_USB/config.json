@@ -1,0 +1,46 @@
+{
+    "interrupt_triggers": {
+        "trigger": {
+            "every_nth_tick": 1000,
+            "fuzz_mode": "round_robin"
+        }
+    },
+    "memory_map": {
+        "mmio": {
+            "base_addr": 1073741824,
+            "size": 536870912,
+            "permissions": "rw-"
+        },
+        "nvic": {
+            "base_addr": 3758096384,
+            "size": 268435456,
+            "permissions": "rw-"
+        },
+        "irq_ret": {
+            "base_addr": 4294963200,
+            "size": 4096,
+            "permissions": "--x"
+        },
+        "zero": {
+            "base_addr": 0,
+            "permissions": "rw-",
+            "size": 4096
+        },
+        "ram": {
+            "base_addr": 536870912,
+            "permissions": "rw-",
+            "size": 262144
+        },
+        "rom": {
+            "base_addr": 134217728,
+            "permissions": "rw-",
+            "size": 49152
+        },
+        "text": {
+            "base_addr": 134267008,
+            "file": "C:\\Users\\Nin0\\Documents\\GitHub\\ghidra-integration\\evaluation\\fuzzware-experiments\\02-comparison-with-state-of-the-art\\uEmu\\utasker_USB\\uEmu.uTaskerV1.4_USB_STM32429ZI.bin",
+            "permissions": "r-x",
+            "size": 40960
+        }
+    }
+}
