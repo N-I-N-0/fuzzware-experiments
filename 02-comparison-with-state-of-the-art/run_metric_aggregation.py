@@ -14,8 +14,8 @@ except ImportError as e:
 
 DIR = os.path.dirname(os.path.realpath(__file__))
 target_names = [
-    "P2IM/CNC", "P2IM/Drone", "P2IM/Heat_Press", "P2IM/Reflow_Oven", "P2IM/Soldering_Iron", "P2IM/Console", "P2IM/Gateway", "P2IM/PLC", "P2IM/Robot", "P2IM/Steering_Control",
-    "uEmu/6LoWPAN_Receiver", "uEmu/6LoWPAN_Sender", "uEmu/RF_Door_Lock", "uEmu/Thermostat", "uEmu/uEmu.3Dprinter", "uEmu/uEmu.GPSTracker", "uEmu/LiteOS_IoT", "uEmu/utasker_MODBUS", "uEmu/utasker_USB", "uEmu/Zepyhr_SocketCan", "uEmu/XML_Parser"
+    "P2IM/CNC", "P2IM/Drone", "P2IM/Heat_Press", "P2IM/Reflow_Oven", "P2IM/Soldering_Iron", "P2IM/Console", "P2IM/Gateway", "P2IM/PLC", "P2IM/Robot", "P2IM/Steering_Control"
+    #"uEmu/6LoWPAN_Receiver", "uEmu/6LoWPAN_Sender", "uEmu/RF_Door_Lock", "uEmu/Thermostat", "uEmu/uEmu.3Dprinter", "uEmu/uEmu.GPSTracker", "uEmu/LiteOS_IoT", "uEmu/utasker_MODBUS", "uEmu/utasker_USB", "uEmu/Zepyhr_SocketCan", "uEmu/XML_Parser"
 ]
 
 """
